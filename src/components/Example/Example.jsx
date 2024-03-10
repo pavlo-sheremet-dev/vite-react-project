@@ -1,5 +1,5 @@
-const Example = ({ children }) => {
-  return <>{children}</>;
+const Example = () => {
+  return <>Example</>;
 };
 
 export default Example;
