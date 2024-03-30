@@ -1,11 +1,6 @@
-import MyComponent from "./components/MyComponent/MyComponent";
-
 const App = () => {
-  return (
-    <>
-      <MyComponent />
-    </>
-  );
+  console.log(import.meta.env.VITE_API_KEY);
+  return <div>{import.meta.env.VITE_API_KEY}</div>;
 };
 
 export default App;
